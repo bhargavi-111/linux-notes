@@ -1,0 +1,14 @@
+useradd/adduser name
+groupadd/addgroup name
+id username
+cat/etc/passwd - list of users(getent passwd)
+cat/etc/groups - list of groups (getent group)
+deluser/userdel name
+delgroup/groupdel name
+passwd username
+usermod -aG groupname username(add user in agroup)
+su - username(switch user)
+CHANGE OWNERS:
+chown username filename
+chgrp groupname filename
+chown username:groupname filename(change user&group at atime)
