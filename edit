@@ -1,0 +1,27 @@
+cat filename
+cat>fileaname
+cat>>filename
+cat -n filename
+cat f1 f2 f3
+cat file1>>file2
+cat file1 | tee file2 file3 file4
+cat file1 | tee -a file2 file3 file4
+cp file1 file2
+cp file1 floder1
+mv file1 file2
+mv file1 floder1
+head filename
+head -8 filename
+tail filename
+tail -5 filename
+sed -n '5,8p' filename
+wc filename
+wc -l filename
+wc -w filename
+wc -c filename
+more f1 f2 f3
+tac filename
+rev filename
+cmp file1 file2
+diff file1 file2
+echo floder{2..7} | xargs -n 1 cp -v floder/*
