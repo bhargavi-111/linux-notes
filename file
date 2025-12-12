@@ -1,0 +1,31 @@
+touch filename
+touch f1 f2 f3
+touch file{1..5}
+rm filename
+rm f1 f2 f3
+rm file{1..5}
+rm-f filename
+rm -f*
+mkdir floder
+mkdir f1 f2 f3
+mkdir floder1{2..7}
+touch flodername/filename
+mkdir flodername/flodername
+mkdir -p flodername/flodername/flodername
+rmdir
+rm -r
+rm -rf*
+cd flodername
+cd ..
+cd-
+cd
+cd/
+pwd
+ll
+ls
+ls floder 1
+ll -a
+ll -r
+ll -t
+ll-ltr
+
