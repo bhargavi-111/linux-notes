@@ -1,0 +1,10 @@
+users,groups,others
+r-4
+w-2
+x-1
+chmod 444 filename
+chmod +x filename
+chmod 777 file1 file2 file3
+chmod -R floder1(permission changes inside files in afloder)
+chmod 777 floder1/*(change permission only files in a floder)
+chmod 666 floder1/file1 (change permission specific file)
