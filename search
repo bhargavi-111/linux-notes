@@ -1,0 +1,17 @@
+find,locate & grep
+GREP:
+grep is used to search for a word
+grep-n "word" filename
+grep -in "word" fileanme
+grep -c "word" filename
+grep -ic "word" filename
+grep -in -e "word" -e "word" -e "word" filename(srch multiple wrds)
+grep -in "word" filename filename(srch a word in multiple files)
+grep -in -e "word"-e "word" filename filename(srch multiple words in multiple files)
+ex: getent passwd |grep -i "root"
+FIND: used to search for a file.
+find path -name filename(path - flodername)
+find . -type f -name filename
+find . -tye d -name directory name
+LOCATE:
+locate filename
