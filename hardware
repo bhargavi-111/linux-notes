@@ -1,0 +1,12 @@
+lscpu
+lsblk-a
+free
+free -m
+df
+df-h
+du filename
+du -sh filename
+fdisk -l
+fdisk -s<parition>
+cat/proc/cpuinfo
+cat/proc/meminfo
