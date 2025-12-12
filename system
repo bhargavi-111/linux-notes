@@ -1,0 +1,29 @@
+whoami
+who
+top
+ps
+last reboot
+uname
+uname -r
+uname -a
+uptime
+uptime -p
+uptime -s
+ipaddr
+ip route
+ifconfig
+hostname
+hostname -i
+hostname -I
+date
+date +"%d"
+date +"%m"
+date +"%y"
+date +"%H"
+date +"%M"
+date +"%S"
+date +"%D"
+date +"%F"
+date +"%A"
+date +"%B"
+
